@@ -9,7 +9,7 @@ IN in_col_name VARCHAR(100),
 IN in_whole_words BOOLEAN
 
 USAGE:
-CALL pr_search_records_in_column_with_every_word_in_any_order('[text to search]', '[TABLE NAME]', '[COLUMN NAME]', [TRUE | FALSE);
+CALL pr_search_records_in_column_with_every_word_in_any_order('[text to search]', '[TABLE NAME]', '[COLUMN NAME]', [TRUE | FALSE]);
 
 (A Database must have been previously selected:
 USE [DataBase name];)
