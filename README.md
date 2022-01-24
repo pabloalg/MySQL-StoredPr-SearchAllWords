@@ -5,10 +5,10 @@ A MySQL stored procedure to search for records in a column in a table that conta
 Use this procedure to get records that contain every word (whole or part of it) in any order. Each word in a record may be equal or contain each of the input words depending on the 4th boolean parameter (see the examples for further explanation). Search is Case-insensitive. Each word may appear more than once.
 
 # Usage
-CALL __pr_search_records_in_column_with_every_word_in_any_order__ ('__[text to search]__', '__[TABLE NAME]__', '__[COLUMN NAME]__', __[TRUE | FALSE)__;
+CALL __pr_search_records_in_column_with_every_word_in_any_order ('[text to search]', '[_Table name_]', '[_Column name_]', [_TRUE | FALSE_]);__
 
 (A Database must have been previously selected: <br>
-USE [DataBase name];)
+USE [_DataBase name_];)
 
 ## Procedure Parameters
 1. IN in_text_to_search VARCHAR(255),
