@@ -47,5 +47,7 @@ Text to search: "__shirt cotton blue s__"<br>
    - "__blue shirt s__" [__"cotton"__ missing]
 
 ## Installation
-1. Load an run script.
+1. Load an run the script (__"search_all_words_in_any_order.sql"__) into your MySQL system.
+(A Database must have been previously selected: <br>
+__USE [_DataBase name_];__)
 2. Call the stored procedure filling the input parameters (see <a href="https://github.com/pabloalg/MySQL-StoredPr-SearchAllWords/blob/main/README.md#usage"> Usage</a>).
