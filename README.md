@@ -1,8 +1,8 @@
 # MySQL-StoredPr-SearchAllWords
-A MySQL stored procedure to search for records in a column in a table that contain all the words (delimited by space) in any given order in the input text.
+A MySQL stored procedure to search for records in a column in a table that __contain all the words (delimited by space) in any given order__ in the input text.
 
 # Description
-Use this procedure to get records that contain every word (whole or part of it) in any order. Each word in a record may be equal or contain each of the input words depending on the 4th boolean parameter (see the examples for further explanation). Search is Case-insensitive. Each word may appear more than once.
+This procedure searches records that contain any permutation of all of the words in the input text stream regardless of their order. Each word in a record may be __equal or contain__ each of the input words depending on the 4th boolean parameter (see the examples for further explanation). Search is Case-insensitive. Each word may appear more than once.
 
 # Usage
 __CALL pr_search_records_in_column_with_every_word_in_any_order ('[text to search]', '[_Table name_]', '[_Column name_]', [_TRUE | FALSE_]);__
