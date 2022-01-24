@@ -18,7 +18,7 @@ USE [DataBase name];)
 
 # Examples:
 1. Fourth boolean parameter = __TRUE__ (search whole words)<br>
-Text to search: "shirt cotton blue s"<br>
+Text to search: "shirt cotton blue s"
 
    This __will return__ all of this records:
    - "dark blue s shirt made of cotton"
@@ -29,7 +29,7 @@ Text to search: "shirt cotton blue s"<br>
    - "blue xs shirt made of cotton"
    - "s cotton shirt color lightblue"
    - "dark blue cotton t-shirt s"
-   - "blue shirt s"<br>
+   - "blue shirt s"
 
 2. Fourth boolean parameter = __FALSE__ (search words inside words)<br>
 Text to search: "shirt cotton blue s"<br>
@@ -45,3 +45,7 @@ Text to search: "shirt cotton blue s"<br>
    - "lightblue cotton skirt"
    - "s blue cotton shir t"
    - "blue shirt s"
+
+## Installation
+1. Load an run script.
+2. Call the stored procedure (see __"Usage"__).
