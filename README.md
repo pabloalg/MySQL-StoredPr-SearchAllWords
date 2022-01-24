@@ -2,7 +2,7 @@
 A MySQL stored procedure to search for records in a column in a table that contain all the words (delimited by space) in any given order in the input text.
 
 # Description:
-Use this procedure to get records in a column of a table that contain all the written words (delimited by space) in any given order. Each word may be equal or contain each of the input words depending on the 4th boolean parameter (see the examples for further explanation). Search is Case-insensitive. Each word may appear more than once.
+Use this procedure to get records that contain every word (whole or part of it) in any order. Each word in a record may be equal or contain each of the input words depending on the 4th boolean parameter (see the examples for further explanation). Search is Case-insensitive. Each word may appear more than once.
 
 # Procedure Parameters:
 IN in_text_to_search VARCHAR(255),
