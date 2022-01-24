@@ -48,4 +48,4 @@ Text to search: "shirt cotton blue s"<br>
 
 ## Installation
 1. Load an run script.
-2. Call the stored procedure filling the input parameters (see __"Usage"__).
+2. Call the stored procedure filling the input parameters (see <a href="https://github.com/pabloalg/MySQL-StoredPr-SearchAllWords/blob/main/README.md#usage"> Usage</a>).
