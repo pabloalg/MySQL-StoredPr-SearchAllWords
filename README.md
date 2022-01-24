@@ -29,8 +29,8 @@ Text to search: "shirt cotton blue s"<br>
    - "blue xs shirt made of cotton"
    - "s cotton shirt color lightblue"
    - "dark blue cotton t-shirt s"
-   - "blue shirt s"
-<br>
+   - "blue shirt s"<br>
+
 2. Fourth boolean parameter = __FALSE__ (search words inside words)<br>
 Text to search: "shirt cotton blue s"<br>
 
