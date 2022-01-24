@@ -18,13 +18,13 @@ USE [DataBase name];)
 
 # Examples:
 - 1) 4th boolean parameter = __TRUE__ (search whole words)<br>
-Text to search: "shirt cotton blue s"<br>
-<br>
+Text to search: "shirt cotton blue s"<br><br>
+
 This __will return__ all of this records:
 - "dark blue s shirt made of cotton"
 - "shirt blue cotton shirt s"
 - "s size cotton shirt color blue"
-<br>
+
 It __won't return__ this records:
 - "blue xs shirt made of cotton"
 - "s cotton shirt color lightblue"
@@ -33,7 +33,7 @@ It __won't return__ this records:
 
 - 2) 4th boolean parameter = __FALSE__ (search words inside words)<br>
 Text to search: "shirt cotton blue s"<br>
-<br>
+
 This __will return__ all of this records:
 - "lightblue xs shirt s t-shirt made of cotton"
 - "blue cotton tshirts xxs size"
